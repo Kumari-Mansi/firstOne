@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    background-color: pink;
+}
+#container{
+  border: 2px solid black;
+  width: 700px;
+  height: 500px;  
+  padding: 10px;
+  background-image: url(http://webneel.com/wallpaper/sites/default/files/images/01-2014/2-flower-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: contain; it scales itself from original dimension */
+  background-size:cover;
+  /* background-size: auto; original dimension of the image*/
+ /* background-position: center; */
+}
+p{
+    /* normal way
+    color: white; */
+
+    /* By using hexcode  */
+    /* color:#ffffff */
+
+    /* color: rgb(255,255,255); */
+
+    /* color: hsl(300, 22%, 92%); */
+    color: whitesmoke;
+}
+body{
+    /* background: linear-gradient(red,yellow,green,pink,purple,blue,beige); */
+    /* background: radial-gradient(red,black); */
+    background: #b02789;
+background: linear-gradient(90deg, rgba(176, 39, 137, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
