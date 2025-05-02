@@ -1,0 +1,38 @@
+h1{
+color: blueviolet;
+}
+
+/* class selector */
+.wrapper{
+    background-color: aquamarine;
+}
+.s{
+    background-color:pink;
+}
+
+/* id selector */
+#check{
+    background-color: orange;
+}
+
+/* sudo selector */
+
+ ul li:nth-child(1){
+    background-color:aqua;
+ }
+
+ /* counting starts from last where 1 is last */
+ ul li:nth-last-child(4){ 
+    background-color: palevioletred;
+ }
+
+ ul li:nth-of-type(2n+1){
+background-color: blueviolet;
+}
+.wrapper:hover{
+    background-color: yellow;
+}
+ul li:hover{
+    background-color: beige;
+    color: red;
+}
