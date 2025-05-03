@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid black;
+    background-color: yellow;
+}
+.wrapper{
+    /* z-index: -4; */
+    border: 2px solid red;
+    /* position: relative; */
+}
+#third{
+    /* position: relative; */
+    /* position: sticky;
+    top: 10px; */
+    /* position: sticky; */
+    /* position: fixed; */
+    /* top:0px;
+    left:0px; */
+    z-index: -1;
+ /* absolute == fixed
+ relative == sticky */
+ cursor: progress;
+}
