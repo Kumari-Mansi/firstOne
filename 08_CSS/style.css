@@ -1,0 +1,36 @@
+/*
+units in CSS
+absolute -> px,in,cm,mm   ->(remain same on all devices)
+relative -> %,vw(viewport width),vh(viewport height) ,em (font-size),rem   ->(changes itself as per need)
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: pink;
+    border: 2px solid black;
+    /* 1px = 1/96inch */
+   /* width: 100vw; 
+   height: 100vh; */
+   width: 500px;
+   height: 500px;
+   font-size: 50pxf;
+}
+html{
+   font-size: 20px; 
+}
+.child{
+    color:brown;
+    background-color: rgb(231, 242, 231);
+    width: 70%;
+    height: 50%;
+    /* 1em=16px  em is taken with respect to parent*/
+    /* font-size: 1em; */
+    font-size: 1rem;
+    display: inline-block;
+}
