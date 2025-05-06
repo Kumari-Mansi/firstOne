@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   background-image: url(https://www.shutterstock.com/image-illustration/cyber-big-data-flow-blockchain-600nw-1975385489.jpg);
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+}
+
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    background-color: rgba(173, 175, 177, 0.29);
+    /* filter: 10px; */
+    backdrop-filter: blur(1px);
+}
+.logindetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.password{
+    font-size: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+input[type="text"],input[type="password"]{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+h1{
+    font-size: 80px;
+
+}
+p{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* .protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+button{
+    cursor: pointer;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background:linear-gradient(rgba(212, 212, 197, 0.563),blue);
+}
+
+input[type="checkbox"]{
+   display: flex;
+  
+    width: 15px;
+    height: 20px;
+    cursor: pointer;
+}
