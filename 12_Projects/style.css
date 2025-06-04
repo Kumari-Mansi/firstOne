@@ -10,6 +10,8 @@
 }
 
 .navbar{
+    position: sticky;
+    top: 0;
     display: flex;
    justify-content: space-between;
    align-items: center;
@@ -151,4 +153,155 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.bg1{
+    background-image: url(bg1.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+.bg1>div>h2{
+    font-size: 1.5cm;
+    font-weight: lighter;
+}
+
+.bg1>div{
+    padding: 50px 10px 10px 900px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.bg1>div>p{
+    font-size: 0.45cm;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.bg2{
+    background-image: url(bg2.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+.bg2>div>h2{
+    font-size: 1.5cm;
+    font-weight: lighter;
+}
+
+.bg2>div{
+    padding: 100px 20px 50px 350px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.bg2>div>p{
+    font-size: 0.45cm;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.bg3{
+    background-image: url(bg3.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+.bg3>div>h2{
+    font-size: 1.5cm;
+    font-weight: lighter;
+}
+
+.bg3>div{
+    padding: 50px 10px 10px 900px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.bg3>div>p{
+    font-size: 0.45cm;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.bg4{
+    background-image: url(bg4.jpeg);
+    height: 55%;
+    background-size: cover;
+}
+.bg4>div>h2{
+    font-size: 1.5cm;
+    font-weight: lighter;
+}
+
+.bg4>div{
+    padding: 100px 40px 50px 350px;
+    color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.bg4>div>p{
+    font-size: 0.45cm;
+    line-height: 22px;
+    font-weight: lighter;
+}
+
+.faq{
+   
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: black;   
+ color: white;
+ height:50% ;
+}
+.faqdetail{
+ width: 45%;  
+ display: flex;
+ justify-content: end;
+ flex-direction: column;
+ gap:20px; 
+}
+.faq>.faqdetail>p{
+    font-size:40px;
+    font-style: italic;
+    color: aqua;
+    align-self: left;
+    font-weight: bolder;
+    padding: 20px;
+}
+.details{
+    background-color: black;
+    color: white;
+}
+.faq>div>img{
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.helpcenter{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpcenter>p>span{
+  color: rgb(0, 123, 255);
 }
