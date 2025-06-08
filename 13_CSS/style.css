@@ -1,16 +1,18 @@
-*{
-    margin: 0;
-    padding: 50px;
-    box-sizing: border-box;
 
 .container{
     perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:10px;
 }
 .box{
     height: 200px;
     width: 200px;
     padding: 100px;
     background-color: palevioletred;
+    transform: rotateZ(9deg);
     /* transition-property: height,width,background-color; */
     /* transition-property: all; */
     /* transform: translateX(100px);
@@ -22,7 +24,10 @@
     transform: rotateZ(120deg);
     transform: scaleX(0.5);
     transform: scaleY(1.5);
+
  */
+ transform: scale3d(1);
+ transform: perspective(200px) rotateZ(30) scaleZ(2);
 
 /* skew is used to tilt  */
 transform: skewX(-45deg);
