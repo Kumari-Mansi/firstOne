@@ -1,85 +1,162 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-   background-image: url(https://www.shutterstock.com/image-illustration/cyber-big-data-flow-blockchain-600nw-1975385489.jpg);
-   width: 100vw;
-   height: 100vh;
-   background-size: cover;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www.shutterstock.com/image-illustration/cyber-big-data-flow-blockchain-600nw-1975385489.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
-.loginPage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 50%;
-    height: 70%;
-    background-color: rgba(173, 175, 177, 0.29);
-    /* filter: 10px; */
-    backdrop-filter: blur(1px);
-}
-.logindetails{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 50%;
+  height: 70%;
+  background-color: rgba(173, 175, 177, 0.29);
+  backdrop-filter: blur(2px);
+  gap: 20px;
 }
 
-.password{
-    font-size: 15px;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+.logindetails {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
+.password {
+  font-size: 15px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .checkbox-container {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-
-input[type="text"],input[type="password"]{
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-}
-h1{
-    font-size: 80px;
-
-}
-p{
-    cursor: pointer;
-    text-decoration: underline;
-}
-/* .protest-guerrilla-regular {
-    font-family: "Protest Guerrilla", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-  
-button{
-    cursor: pointer;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    background:linear-gradient(rgba(212, 212, 197, 0.563),blue);
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
-input[type="checkbox"]{
-   display: flex;
-  
-    width: 15px;
-    height: 20px;
-    cursor: pointer;
+h1 {
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  background: linear-gradient(rgba(212, 212, 197, 0.563), blue);
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* ------------------- MEDIA QUERIES ------------------- */
+
+/* Extra small devices */
+@media screen and (max-width: 480px) {
+  .loginPage {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .logindetails,
+  .password {
+    width: 90%;
+  }
+
+  .password {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .loginPage {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .logindetails,
+  .password {
+    width: 85%;
+  }
+}
+
+/* Small Laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .loginPage {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .logindetails,
+  .password {
+    width: 70%;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1025px) {
+  .loginPage {
+    width: 50%;
+  }
+
+  .logindetails,
+  .password {
+    width: 50%;
+  }
 }
